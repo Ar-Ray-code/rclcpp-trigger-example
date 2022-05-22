@@ -1,4 +1,4 @@
-# wait-point-example-rclcpp
+# rclcpp-trigger-example
 
 Setting wait points for example program by ROS2.
 
