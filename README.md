@@ -12,6 +12,22 @@ Setting wait points for example program by ROS2.
 
 ## Run example
 
+```bash
+# Download and compile
+git clone https://github.com/Ar-Ray-code/rclcpp-trigger-example.git
+cd rclcpp-trigger-example/
+colcon build
+
+# run
+./install/rclcpp_trigger/lib/rclcpp_trigger/trigger_example
+```
+
+### Send Trigger
+```bash
+ros2 topic pub --once /signal1 std_msgs/msg/Empty {}
+ros2 topic pub --once /signal2 std_msgs/msg/Empty {}
+```
+
 <br>
 
 ## Example program
